@@ -112,7 +112,7 @@ img {
   padding: 10px;
 }
 .box-about img {
-  float: center;
+  float: right;
   max-width: 80%;
   height: auto;
   margin-top: 40px;
