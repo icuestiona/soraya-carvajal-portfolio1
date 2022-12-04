@@ -103,6 +103,10 @@ img {
   margin-top: 25px;
   padding: 30px 20px;
 }
+.content-container .content {
+  margin-top: 0;
+}
+
 .content h1 {
   font-family: var(--heading-font-family);
   font-size: 4rem;
