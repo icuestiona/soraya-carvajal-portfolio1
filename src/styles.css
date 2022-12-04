@@ -104,7 +104,7 @@ img {
   padding: 30px 20px;
 }
 .content-container .content {
-  margin-top: 30px;
+  margin-top: -30px;
 }
 
 .content-container .content img {
