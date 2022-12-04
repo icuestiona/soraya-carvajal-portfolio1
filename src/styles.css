@@ -210,6 +210,11 @@ Footer .btn-branding:hover {
   color: white;
 }
 
+a {
+  color: blueviolet;
+  text-align: none;
+}
+
 .btn-secondary {
   background: var(--alternative-color);
   border: 1px solid var(--branding-color);
