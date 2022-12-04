@@ -48,6 +48,10 @@ p {
   line-height: 30px;
 }
 
+img {
+  width: 100%;
+}
+
 .hero {
   background: linear-gradient(
     -45deg,
