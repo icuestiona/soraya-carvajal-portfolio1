@@ -107,6 +107,17 @@ img {
   margin-top: -20px;
   padding: 30px 20px;
 }
+.content .about-me img {
+  float: center;
+  max-width: 90%;
+  height: auto;
+  margin-top: 40px;
+  background-size: cover;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
 .content h1 {
   font-family: var(--heading-font-family);
   font-size: 4rem;
@@ -132,16 +143,6 @@ img {
 .content p {
   font-size: 0.88rem;
   font-family: var(--default-font-family);
-}
-.content img {
-  float: center;
-  max-width: 90%;
-  height: auto;
-  margin-top: 40px;
-  background-size: cover;
-  border-radius: 15px;
-  display: block;
-  margin: 0 auto;
 }
 
 .frontend img {
