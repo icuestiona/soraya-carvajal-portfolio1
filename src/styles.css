@@ -111,9 +111,9 @@ img {
   margin-top: -20px;
   padding: 10px;
 }
-.content-container container img {
+.box-about img {
   float: center;
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
   margin-top: 40px;
   border-radius: 15px;
