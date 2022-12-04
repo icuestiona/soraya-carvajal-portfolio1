@@ -161,7 +161,7 @@ img {
   margin: 0 auto;
 }
 
-.box-contact .btn-branding {
+Footer .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -170,7 +170,7 @@ img {
   padding: 15px 30px;
 }
 
-.box-contact .btn-branding:hover {
+.btn-branding:hover {
   background-color: var(--third-color);
   color: white;
 }
