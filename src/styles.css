@@ -135,6 +135,14 @@ img {
   border-radius: 15px;
   margin-top: 40px;
 }
+
+.content-container .content {
+  margin-top: 40px;
+}
+
+.content-container .frontend {
+  margin-top: 40px;
+}
 .content {
   margin: 30px;
 }
