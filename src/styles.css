@@ -199,6 +199,13 @@ img {
   max-width: 130px;
 }
 
+.frontend img {
+  float: center;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
 nav {
   padding: 20px 0;
 }
