@@ -137,16 +137,9 @@ img {
   font-size: 2.5rem;
   color: black;
 }
-.box-about {
-  font-family: var(--default-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 2.5rem;
-  color: black;
-}
 
 .content-container {
-  margin-top: 10px;
+  margin-top: 0;
   padding: 30px 20px;
 }
 
