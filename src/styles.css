@@ -38,6 +38,7 @@ h2 {
   color: black;
   font-size: 4rem;
   font-weight: bold;
+  line-height: 1.5;
 }
 p {
   font-weight: normal;
@@ -129,16 +130,18 @@ img {
   padding: 30px 20px;
 }
 
-.content h2 {
-  font-family: var(--heading-font-family);
-  color: black;
-  font-size: 4rem;
-  font-weight: bold;
-}
 .content-container {
   margin-top: 10px;
   padding: 30px 20px;
 }
+.content-container h2 {
+  font-family: var(--heading-font-family);
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 .box-about {
   margin-top: 25px;
   padding: 30px 20px;
