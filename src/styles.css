@@ -120,6 +120,11 @@ img {
   color: black;
   line-height: 1.5;
 }
+
+.content h5 {
+  color: var(--alternative-color);
+}
+
 .content p {
   font-size: 0.88rem;
   font-family: var(--default-font-family);
