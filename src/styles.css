@@ -105,6 +105,7 @@ img {
 }
 .content .about-me {
   margin-top: -20px;
+  padding: 30px 20px;
 }
 .content h1 {
   font-family: var(--heading-font-family);
