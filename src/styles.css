@@ -103,13 +103,6 @@ img {
   margin-top: 25px;
   padding: 30px 20px;
 }
-.content-container .content {
-  margin-top: -30px;
-}
-
-.content-container .content img {
-  margin-top: -100px;
-}
 
 .content h1 {
   font-family: var(--heading-font-family);
