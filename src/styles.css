@@ -146,8 +146,8 @@ img {
 
 .frontend img {
   float: center;
-  width: 450px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   display: block;
   margin: 0 auto;
