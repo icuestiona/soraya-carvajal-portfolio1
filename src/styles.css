@@ -138,6 +138,11 @@ img {
   display: block;
 }
 
+.frontend {
+  display: flex;
+  justify-content: space-between;
+}
+
 .frontend img {
   float: center;
   width: 400px;
