@@ -211,8 +211,8 @@ Footer .btn-branding:hover {
 }
 
 a {
-  color: blueviolet;
-  text-align: none;
+  color: var(--alternative-color);
+  text-decoration: none;
 }
 
 .btn-secondary {
