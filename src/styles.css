@@ -134,16 +134,14 @@ img {
   font-family: var(--default-font-family);
 }
 .content-container img {
-  max-width: 100%;
-  height: auto;
+  float: center;
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
   border-radius: 15px;
-  margin-top: 40px;
 }
 
 .content-container .content {
-  margin-top: 25px;
-}
-.content-container .frontend {
   margin-top: 25px;
 }
 .btn-branding {
