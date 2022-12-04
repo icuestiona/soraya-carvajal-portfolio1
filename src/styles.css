@@ -94,6 +94,10 @@ img {
   font-size: 1.5rem;
   color: white;
 }
+
+.content {
+  margin-top: 30px;
+}
 .content-container {
   padding: 60px 20px;
 }
@@ -137,16 +141,11 @@ img {
 }
 
 .content-container .content {
-  margin-top: 40px;
+  margin-top: 25px;
 }
-
 .content-container .frontend {
-  margin-top: 40px;
+  margin-top: 25px;
 }
-.content {
-  margin: 30px;
-}
-
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
