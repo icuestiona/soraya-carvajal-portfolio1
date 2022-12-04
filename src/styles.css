@@ -139,7 +139,7 @@ img {
   color: black;
   font-size: 4rem;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .box-about {
@@ -172,8 +172,11 @@ img {
   margin-top: 0;
 }
 .content h2 {
-  font-size: 1.15rem;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
 }
 .content h3 {
   font-size: 1.5rem;
