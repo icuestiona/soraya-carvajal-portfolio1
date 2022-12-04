@@ -200,12 +200,12 @@ img {
   max-width: 130px;
 }
 
-.frontend img {
-  float: center;
+.content-container .frontend img {
+  float: left;
   width: 400px;
   height: 350px;
   object-fit: cover;
-  display: block;
+  margin-bottom: 9px;
 }
 
 nav {
