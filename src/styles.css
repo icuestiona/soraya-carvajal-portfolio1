@@ -135,8 +135,9 @@ img {
 }
 .content-container img {
   float: center;
-  width: 400px;
-  height: 350px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -205,7 +206,7 @@ img {
   max-width: 130px;
 }
 
-.frontend img {
+.content-container .frontend img {
   float: center;
   width: 400px;
   height: 350px;
