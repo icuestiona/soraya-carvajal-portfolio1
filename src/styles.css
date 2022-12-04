@@ -103,7 +103,11 @@ img {
   margin-top: 25px;
   padding: 30px 20px;
 }
-.content .about-me {
+.box-about {
+  margin-top: 25px;
+  padding: 30px 20px;
+}
+.box-about .about-me {
   margin-top: -20px;
   padding: 10px;
 }
