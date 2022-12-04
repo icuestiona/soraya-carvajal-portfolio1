@@ -100,7 +100,7 @@ img {
   padding: 30px 20px;
 }
 .content-container {
-  margin-top: 0;
+  margin-top: 10px;
   padding: 30px 20px;
 }
 .box-about {
@@ -145,6 +145,11 @@ img {
 .content p {
   font-size: 0.88rem;
   font-family: var(--default-font-family);
+}
+
+.frontend {
+  margin-top: 30px;
+  padding: 30px 20px;
 }
 
 .frontend img {
