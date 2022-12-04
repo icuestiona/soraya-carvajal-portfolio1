@@ -207,6 +207,14 @@ img {
   margin: 0 auto;
 }
 
+.frontend h2 {
+  font-family: var(--heading-font-family);
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 Footer .btn-branding {
   background: var(--third-color);
   border-radius: 4px;
