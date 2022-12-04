@@ -201,7 +201,7 @@ img {
   border: 1px solid var(--branding-color);
   color: white;
 }
-.btn-branding-outline {
+.contact-box.btn-branding-outline {
   color: var(--alternative-color);
   border: 1px solid var(--alternative-color);
   border-radius: 4px;
