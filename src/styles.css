@@ -229,7 +229,7 @@ Footer .btn-branding {
 }
 
 Footer .btn-branding:hover {
-  background-color: var(--alternative-color);
+  background-color: var(--branding-color);
   color: white;
 }
 
@@ -259,6 +259,9 @@ a {
   font-size: 1.13rem;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  background-color: var(--branding-color);
 }
 
 .project-description {
