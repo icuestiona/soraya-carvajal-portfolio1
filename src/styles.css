@@ -133,6 +133,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
+  margin-top: 40px;
 }
 .content {
   margin: 30px;
