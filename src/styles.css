@@ -108,7 +108,7 @@ img {
   padding: 30px 20px;
 }
 .box-about .about-me {
-  margin-top: -20px;
+  margin-top: -10px;
   padding: 10px;
 }
 .box-about img {
@@ -118,7 +118,6 @@ img {
   margin-top: 40px;
   border-radius: 15px;
   display: block;
-  margin: 0 auto;
 }
 
 .content h1 {
