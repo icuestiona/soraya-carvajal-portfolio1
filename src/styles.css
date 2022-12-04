@@ -107,7 +107,7 @@ img {
   margin-top: -20px;
   padding: 30px 20px;
 }
-.content .about-me img {
+.content-container container img {
   float: center;
   max-width: 80%;
   height: auto;
