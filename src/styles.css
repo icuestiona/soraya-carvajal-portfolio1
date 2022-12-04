@@ -109,10 +109,9 @@ img {
 }
 .content .about-me img {
   float: center;
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
   margin-top: 40px;
-  background-size: cover;
   border-radius: 15px;
   display: block;
   margin: 0 auto;
