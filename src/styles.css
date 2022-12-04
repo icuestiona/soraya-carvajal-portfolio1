@@ -138,16 +138,13 @@ img {
   display: block;
 }
 
-.frontend {
-  display: flex;
-  justify-content: space-between;
-}
-
 .frontend img {
   float: center;
   width: 400px;
   height: 350px;
-  object-fit: cover;
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 .btn-branding {
