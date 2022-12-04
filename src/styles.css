@@ -95,7 +95,7 @@ img {
   color: white;
 }
 
-.welcome ..btn-branding {
+.welcome .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
