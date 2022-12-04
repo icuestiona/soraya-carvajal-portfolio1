@@ -99,7 +99,7 @@ img {
 }
 
 .welcome .btn-branding {
-  background: var(--branding-color);
+  background: var(--third-color);
   border-radius: 4px;
   color: white;
   font-size: 1.13rem;
@@ -108,7 +108,7 @@ img {
 }
 
 .welcome .btn-branding:hover {
-  background-color: var(--third-color);
+  background-color: var(--alternative-color);
   color: white;
 }
 
@@ -181,7 +181,7 @@ img {
 }
 
 Footer .btn-branding {
-  background: var(--branding-color);
+  background: var(--third-color);
   border-radius: 4px;
   color: white;
   font-size: 1.13rem;
@@ -190,7 +190,7 @@ Footer .btn-branding {
 }
 
 Footer .btn-branding:hover {
-  background-color: var(--third-color);
+  background-color: var(--alternative-color);
   color: white;
 }
 .btn-primary {
