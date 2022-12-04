@@ -187,26 +187,14 @@ Footer .btn-branding {
   font-size: 1.13rem;
   line-height: 27px;
   padding: 15px 30px;
+  border: 1px solid var(--branding-color);
 }
 
 Footer .btn-branding:hover {
   background-color: var(--alternative-color);
   color: white;
 }
-.btn-primary {
-  background: var(--third-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 1.13rem;
-  line-height: 1.7rem;
-  padding: 15px 30px;
-}
-.btn-primary:hover {
-  background-color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  color: white;
-}
+
 .btn-secondary {
   background: var(--alternative-color);
   border: 1px solid var(--branding-color);
@@ -220,14 +208,6 @@ Footer .btn-branding:hover {
   background-color: var(--branding-color);
   border: 1px solid var(--branding-color);
   color: white;
-}
-.btn-branding-outline {
-  color: var(--alternative-color);
-  border: 1px solid var(--alternative-color);
-  border-radius: 4px;
-  font-size: 1.13rem;
-  line-height: 27px;
-  padding: 15px 30px;
 }
 
 .project-description {
