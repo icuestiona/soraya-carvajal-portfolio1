@@ -302,7 +302,8 @@ nav li.active {
 }
 
 footer {
-  margin: 30px 0;
+  margin: 60px 0;
+  margin-top: -20px;
 }
 footer .contact-box {
   background-color: #f4f7f6;
