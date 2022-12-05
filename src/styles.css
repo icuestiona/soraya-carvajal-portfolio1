@@ -203,11 +203,9 @@ img {
 
 .frontend img {
   float: center;
-  width: 450px;
-  height: 350px;
-  background-size: cover;
-  display: block;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .frontend h2 {
