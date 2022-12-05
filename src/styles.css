@@ -206,7 +206,7 @@ img {
   width: 90%;
   height: 80%;
   object-fit: cover;
-  display: block;
+  display: flex;
 }
 
 .frontend h2 {
