@@ -204,7 +204,7 @@ img {
 .frontend img {
   float: center;
   width: 90%;
-  height: 90%;
+  height: 80%;
   object-fit: cover;
 }
 
