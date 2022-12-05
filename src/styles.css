@@ -213,6 +213,7 @@ nav li.active {
   line-height: 1.5;
   font-size: 3rem;
   color: black;
+  font-weight: bold;
 }
 .content-container .content h3 {
   font-size: 1.5rem;
