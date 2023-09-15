@@ -269,15 +269,16 @@ nav li.active {
   line-height: 1.5;
 }
 
-.frontend .row {
-  margin-top: 60px;
-}
 .frontend {
   margin-top: -40px;
   padding: 30px 20px;
 }
 
-.frontend img {
+.frontend .row {
+  margin-top: 60px;
+}
+
+.content-container .frontend img {
   float: center;
   width: 90%;
   height: 80%;
@@ -286,6 +287,32 @@ nav li.active {
   display: block;
 }
 
+.content-container .frontend #second-line img {
+  width: 90%;
+  height: 65%;
+}
+
+.content-container .frontend #second-line div {
+  margin-top: 20px;
+}
+
+.content-container .frontend #third-line div {
+  margin-top: -80px;
+}
+
+.content-container .frontend #third-line img {
+  width: 90%;
+  height: 80%;
+}
+
+.content-container .frontend #four-line div {
+  margin-top: 20px;
+}
+
+.content-container .frontend #four-line img {
+  width: 90%;
+  height: 80%;
+}
 .content-container .frontend a {
   color: var(--alternative-color);
   text-decoration: none !important;
