@@ -148,6 +148,7 @@ nav li.active {
 
 .box-about .about-me {
   margin-top: 30px;
+  margin-bottom: 30px;
   text-align: left;
 }
 
@@ -202,53 +203,81 @@ nav li.active {
 }
 
 .content-container .content {
-  margin-top: 100px;
-  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.content-container .content,
+.content-container .frontend {
   text-align: center;
+  padding: 30px 20px;
+}
+
+.frontend .row {
+  margin-top: 40px;
+}
+
+.content-container .content h1,
+.content-container .content h2,
+.content-container .content h5 {
+  font-family: var(--heading-font-family);
+  color: black;
+}
+
+.content-container img,
+.content img,
+.frontend img,
+.frontend #work img,
+.frontend #second-line img,
+.frontend #third-line img,
+.frontend #four-line img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 15px;
+  float: center;
 }
 
 .content-container .content h1 {
-  font-family: var(--heading-font-family);
   font-size: 4rem;
   line-height: 80px;
-  color: black;
-  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .content-container .content h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.5;
   font-size: 3rem;
-  color: black;
-  font-weight: bold;
 }
-.content-container .content h3 {
+
+.content-container .content h3,
+.frontend h3 {
   font-size: 1.5rem;
   font-family: var(--default-font-family);
   color: black;
   line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .content-container .content h5 {
   color: var(--alternative-color);
 }
 
-.content-container .content p {
-  font-size: 0.88rem;
-  font-family: var(--default-font-family);
+.content-container .content p,
+.frontend p {
   font-size: 1rem;
+  font-family: var(--default-font-family);
   line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.content-container .content img {
-  float: center;
-  max-width: 90%;
-  height: auto;
-  margin-top: 40px;
-  border-radius: 15px;
-  margin: auto;
-  display: block;
+/* For h3 and p elements inside third-line */
+.frontend #third-line h3,
+.frontend #third-line p {
+  margin-top: 10px; /* Adjust the spacing as needed */
+  margin-bottom: 10px; /* Adjust the spacing as needed */
 }
 
 .content-container .content a {
@@ -256,17 +285,13 @@ nav li.active {
   text-decoration: none !important;
 }
 
-.content-container .frontend {
-  margin-top: 60px;
-  padding: 30px 20px;
-  text-align: center;
-}
-
-.content-container .frontend h3 {
+.frontend h3 {
   font-size: 1.5rem;
   font-family: var(--default-font-family);
   color: black;
   line-height: 1.5;
+  margin-top: 10px; /* Adjust the spacing as needed */
+  margin-bottom: 10px; /* Adjust the spacing as needed */
 }
 
 .content-container .frontend h2 {
@@ -277,49 +302,23 @@ nav li.active {
   line-height: 1.5;
 }
 
-.frontend {
-  margin-top: -40px;
-  padding: 30px 20px;
-}
-
-.frontend .row {
-  margin-top: 60px;
-}
-
-.content-container .frontend img {
-  float: center;
-  width: 90%;
-  height: 80%;
-  object-fit: cover;
-  margin: auto;
-  display: block;
-}
-
 .content-container .frontend #second-line img {
   width: 90%;
   height: 65%;
 }
 
-.content-container .frontend #second-line div {
-  margin-top: 20px;
-}
-
-.content-container .frontend #third-line div {
-  margin-top: -80px;
-}
-
 .content-container .frontend #third-line img {
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 70%;
 }
 
 .content-container .frontend #four-line div {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .content-container .frontend #four-line img {
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 70%;
 }
 .content-container .frontend a {
   color: var(--alternative-color);
@@ -331,6 +330,7 @@ footer {
   margin-top: 40px;
   padding: 30px 120px;
 }
+
 footer .contact-box {
   background-color: #f4f7f6;
   padding: 30px 120px;
@@ -341,6 +341,7 @@ footer .contact-box p {
   margin: 0;
   color: black;
 }
+
 footer .contact-box h4 {
   color: black;
   font-size: 2.5rem;
@@ -351,6 +352,7 @@ footer .email-link {
   color: black;
   font-size: 1.5rem;
 }
+
 footer .email-link:hover {
   color: var(--third-color);
 }
@@ -364,10 +366,12 @@ footer .social-links a {
   font-size: 1.13rem;
   transition: all 100ms ease-in-out;
 }
+
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
+
 Footer .btn-branding {
   background: var(--third-color);
   border-radius: 4px;
@@ -389,35 +393,36 @@ Footer a {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  h1,
+  h2 {
     font-size: 2.75rem;
     line-height: 3.5rem;
   }
-  h2 {
-    font-size: 2.75rem;
-  }
-  .content {
-    text-align: center;
-    padding: 0;
-  }
+
+  .content,
   .content-container {
     text-align: center;
     padding: 0;
   }
+
   .content h1 {
     font-size: 2.75rem;
     line-height: 3.5rem;
   }
+
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 767px) {
-  h1 {
-    font-size: 2.75rem;
-    line-height: 3.5rem;
-  }
+  h1,
   h2 {
-    font-size: 2.75rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
+
   .box-about .row {
     justify-content: center;
     align-items: center;
@@ -436,8 +441,17 @@ Footer a {
   .box-about .col-lg-6,
   .box-about .col-lg-4.order-lg-1,
   .box-about .col-lg-6.order-lg-2 {
-    width: 100%; /* Make both columns full width in small devices */
-    order: 0; /* Reset the order to default */
+    width: 100%;
+    order: 0;
+  }
+
+  .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 30px 20px;
   }
 }
 
@@ -446,6 +460,7 @@ Footer a {
     font-size: 2.75rem;
     line-height: 3.5rem;
   }
+
   h2 {
     font-size: 2.75rem;
   }
