@@ -2,6 +2,12 @@
 
 A minimalist portfolio for Soraya Carvajal, a communications strategist and front-end developer working across culture, technology, and digital communication.
 
+## Recent changes
+
+- Refined the portfolio presentation with an editorial layout, responsive project sections, navigation, reveal animations, and interactive feedback.
+- Added Netlify configuration with Node.js 22 pinned for consistent deployments.
+- Updated the positioning copy to emphasize communications strategy, front-end/UX thinking, and an audience-centered approach.
+
 ## Structure
 
 - `index.html` contains the semantic portfolio sections, navigation, selected projects, and contact details.
